@@ -35,7 +35,7 @@ function getCurrentTime() {
     const date = new Date()
     document.getElementById("time").textContent = date.toLocaleTimeString("fr-FR", {timeStyle: "short"})
 }
-
+getCurrentTime()
 
 navigator.geolocation.getCurrentPosition(position => {
     fetch(`https://apis.scrimba.com/openweathermap/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&units=metric`)
