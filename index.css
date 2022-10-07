@@ -20,6 +20,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 1.5rem;
 }
 
 div.top {
@@ -31,6 +32,7 @@ h1.time {
     text-align: center;
 }
 
+/*CRYPTO*/
 div#crypto {
     font-size: 1.3rem;
 }
@@ -49,7 +51,7 @@ div#crypto-top > span {
     margin-left: 10px;
 }
 
-/*weather*/
+/*WEATHER*/
 #weather-div {
     display: flex;
     flex-direction: column;
@@ -81,7 +83,9 @@ div#crypto-top > span {
     font-size: 1.5rem;
     margin-left: -10px;
 }
+ 
 
+/*JOKES*/
 #chuck{
     align-self: center;
     padding: 1em 10em;
