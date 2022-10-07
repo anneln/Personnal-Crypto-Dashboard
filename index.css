@@ -90,3 +90,9 @@ div#crypto-top > span {
     align-self: center;
     padding: 1em 10em;
 }
+
+/*COVID*/
+#covid{
+    text-align: center; 
+    margin: 0 
+}
