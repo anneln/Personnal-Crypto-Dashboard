@@ -1,5 +1,4 @@
-# co4b349a3bdb57639790d5811
-
+# Make a custom Dashboard chrome extension
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
