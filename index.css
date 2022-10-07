@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}    
+
+body {
+    margin: 0;
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #242424;
+}
+
+main {
+    padding: 15px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time {
+    text-align: center;
+}
+
+div#crypto {
+    font-size: 1.3rem;
+}
+
+div#crypto > p {
+    margin: 0;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
+}
+
+/*weather*/
+#weather-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#weather-div > p{
+    text-align: center;
+    margin-top: -12px;
+}
+
+#weather-icon{
+    width: 50%;
+}
+
+#temp-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-self: flex-start;
+    align-items: center;
+}
+
+#temp-info>p {
+    padding-top: 5px;
+}
+
+.temp{
+    font-size: 1.5rem;
+    margin-left: -10px;
+    
+}
