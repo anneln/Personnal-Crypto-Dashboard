@@ -59,3 +59,32 @@ navigator.geolocation.getCurrentPosition(position => {
         .catch(error =>{console.error(error)})
 });
 
+fetch("https://api.chucknorris.io/jokes/random")
+    .then(res => {
+        if (!res.ok) {
+            throw Error("Something went wrong")
+        }
+        return res.json()
+    })
+    .then(data => {
+        console.log(data)
+        document.getElementById('chuck').innerHTML = `
+            <span>${data.value}</span>
+        `  
+    })
+    .catch(err => console.error(err))
+
+fetch("https://covid-api.mmediagroup.fr/v1/cases?country=France")
+    .then(res => {
+        if (!res.ok) {
+            throw Error("Something went wrong")
+        }
+        return res.json()
+    })
+    .then(data => {
+        console.log(data)
+        document.getElementById('covid').innerHTML = `
+            <p>Covid en France : ${(data.All.confirmed).toLocaleString('fr-FR')} cas confirmés au total</p>
+        `  
+    })
+    .catch(err => console.error(err))
