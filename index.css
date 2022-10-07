@@ -80,5 +80,9 @@ div#crypto-top > span {
 .temp{
     font-size: 1.5rem;
     margin-left: -10px;
-    
+}
+
+#chuck{
+    align-self: center;
+    padding: 1em 10em;
 }
